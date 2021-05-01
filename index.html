@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="login.php">
+
+<script src="https://kit.fontawesome.com/a3995d0be2.js" crossorigin="anonymous"></script><!---icon used-->
+
+
+
+</head>
+<body>
+
+<form class="login_form" action="templates\base.html" method="post" name="form" onsubmit="return validated()">
+  <div class="imgcontainer">
+    <img src="logo.jpeg" alt="logo" class="avatar">
+    <h1 style="color: white;">Login</h1>
+  </div>
+
+  <div class="details">
+    <label for="uname"><b style="color: #fff;">Username</b></label>
+    <input type="text" autocomplete="off" placeholder="Login" name="uname" id="user" required>
+
+    <label for="psw"><b style="color: #fff;">Password</b></label>
+    <input type="password" placeholder="Password" name="psw" id="pass" required>
+     
+ <button onclick="check()"><a href="full stack course/index.html">Login</a> </button>
+
+
+
+
+     <label style="color: #fff;">
+
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+
+<div class="forget_details" ><!--style="background-color:#f1f1f1"-->
+      
+      <span class="psw"><a href="forget.html
+        ">Forget Password</a></span>
+    </div>
+
+  </div></form>
+
+<script src="valid.js">
+  
+</script>
+
+</body>
+</html>
